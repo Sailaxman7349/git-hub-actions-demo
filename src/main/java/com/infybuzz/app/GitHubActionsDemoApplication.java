@@ -11,7 +11,7 @@ public class GitHubActionsDemoApplication {
 	
 	@GetMapping("/welcome")
 	public String welcome() {
-		return "Hello world";
+		return "Hello world ";
 	}
 
 	public static void main(String[] args) {
